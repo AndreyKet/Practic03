@@ -1,12 +1,11 @@
 Console.Write("Введите пятизначное число: ");
 string num = Console.ReadLine();
-int i = 0;
-if (num[i] == num[num.Length-i-1])
+
+if (num[0] == num[4] && num[1] == num[3])
 {
-    Console.WriteLine("является полидромом!");
+    Console.WriteLine("Число является полидромом!");
 }
 else
 {
-    Console.WriteLine("не является полидромом!");
+    Console.WriteLine("Число не являеться полидромом");
 }
-i++;  
